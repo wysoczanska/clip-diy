@@ -5,7 +5,7 @@ Segmentation For-Free <br>
 <p></p>
 
 <a href="https://wysoczanska.github.io/">Monika Wysoczańska</a>&ensp;
-<a href="https://michaelramamonjisoa.github.io/">Michael Ramamonjisoa</a>&ensp;
+<a href="https://michaelramamonjisoa.github.io/">Michaël Ramamonjisoa</a>&ensp;
 <a href="http://staff.ii.pw.edu.pl/~ttrzcins/">Tomasz Trzciński</a>&ensp;
 <a href="https://osimeoni.github.io/">Oriane Siméoni</a>&ensp;
 
