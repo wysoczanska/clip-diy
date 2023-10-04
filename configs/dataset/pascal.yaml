@@ -1,0 +1,12 @@
+defaults:
+  - ../paths
+
+name: pascal
+n_classes: 20
+split: val
+# change to you PASCAL VOC root
+root: ${paths.pascal}
+
+# update your path to pascal saliency
+sal_dir: ${paths.pascal}/VOCdevkit/VOC2012/pascal_saliency
+
