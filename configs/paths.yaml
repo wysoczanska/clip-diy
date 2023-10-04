@@ -3,4 +3,4 @@ paths:
   repo: [cwd]/clip-diy
   pascal: [cwd]/multi-od/data/VOCdevkit # update paths here
   coco: [cwd]multi-od/data/COCO
-  results: ${pathes.repo}/results
+  results: ${paths.repo}/results
