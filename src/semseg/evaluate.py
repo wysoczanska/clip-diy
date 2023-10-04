@@ -12,12 +12,12 @@ from src.datasets.coco import COCO_CLASS_NAMES_ALL
 from src.datasets.pascal_voc import VOC_CLASSES
 from thirdparty.utils import get_iou
 import logging
-
 import numpy as np
+logging.basicConfig()
+log = logging.getLogger(__name__)
+log.setLevel(logging.INFO)
 
 N_JOBS = 8
-
-log = logging.getLogger(__name__)
 
 
 def compute_predictions(model, loader):
