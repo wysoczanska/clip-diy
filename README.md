@@ -66,12 +66,12 @@ git clone https://github.com/valeoai/FOUND.git
 ```
 ### 4. Configure all the paths
 
-In ```/configs/paths.yml``` as well as other in dataset configs make sure you correctly set all the paths.
+In ```configs/paths.yml``` as well as other in dataset configs make sure you correctly set all the paths.
 
 
 ## Run our demo!
 
-Our demo is available in demo.ipynb jupyter notebook - Have fun!
+Our demo is available in ```demo.ipynb``` jupyter notebook - Have fun!
 
 ## Run evaluation
 
