@@ -57,7 +57,7 @@ python scripts/download_coco.py
 python scripts/download_pascal.py
 ```
 
-The scripts are take from the [COMUS](https://github.com/zadaianchuk/comus) codebase. Thanks to the authors!
+The scripts are taken from the [COMUS](https://github.com/zadaianchuk/comus) codebase. Thanks to the authors!
 
 ### 3. Download [FOUND](https://valeoai.github.io/blog/publications/found/)
 ```
@@ -92,7 +92,7 @@ python eval_clipconv.py cfg_clip_coco.yaml # for COCO Object
 
 ## Credits
 
-Huge thanks to authors of the repos that served as a codebase!
+Thanks to the authors of the following repositories that served as a codebase!
 
 - [COMUS: Zadaianchuk et al. "Unsupervised Semantic Segmentation with Self-supervised Object-centric Representations"](https://github.com/zadaianchuk/comus)
-- [FOUND: Simeoni et al."Unsupervised Object Localization: Observing the Background to Discover Objects"](https://valeoai.github.io/blog/publications/found/)
+- [FOUND: Simeoni et al. "Unsupervised Object Localization: Observing the Background to Discover Objects"](https://valeoai.github.io/blog/publications/found/)
