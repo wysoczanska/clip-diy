@@ -7,7 +7,7 @@ Segmentation For-Free <br>
 <a href="https://wysoczanska.github.io/">Monika Wysoczańska</a>&ensp;
 <a href="https://github.com/jake-austin">Michael Ramamonjisoa</a>&ensp;
 <a href="http://staff.ii.pw.edu.pl/~ttrzcins/">Tomasz Trzciński</a>&ensp;
-<a href="hhttps://osimeoni.github.io/">Oriane Siméoni</a>&ensp;
+<a href="https://osimeoni.github.io/">Oriane Siméoni</a>&ensp;
 
 <p></p>
 <a href="https://arxiv.org/pdf/2309.14289.pdf"><img
@@ -32,10 +32,6 @@ This repository does NOT contain:
 
 - training code and checkpoints (since our method is training-free 🕊️)
 
-
-<details>
-<summary>If you find this code useful, cite the paper:
-
 ```
 @article{wysoczanska2023clipdiy,
   title={CLIP-DIY: CLIP Dense Inference Yields Open-Vocabulary Semantic Segmentation For-Free},
@@ -44,8 +40,6 @@ This repository does NOT contain:
   year={2023}
 }
 ```
-
-</details>
 
 ## Installation 
 
