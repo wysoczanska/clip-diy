@@ -1,0 +1,6 @@
+paths:
+  #change to path of clip-diy repo
+  repo: [cwd]/clip-diy
+  pascal: [cwd]/multi-od/data/VOCdevkit # update paths here
+  coco: [cwd]multi-od/data/COCO
+  results: ${pathes.repo}/results

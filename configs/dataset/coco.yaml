@@ -1,0 +1,13 @@
+defaults:
+  - ../paths
+
+name: coco
+cat_list: coco_full
+n_classes: 80
+split: val
+root:  ${paths.coco}
+# dir to store COCO idx
+idx_dir: ${paths.coco}
+
+# update your path to saliency maps
+sal_dir: ${paths.coco}/coco_saliency

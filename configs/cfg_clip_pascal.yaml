@@ -1,0 +1,23 @@
+defaults:
+  - _self_
+  - paths
+  - dataset: pascal
+
+experiment:
+  name: clipdiy_${dataset.name}
+  run: final
+  port: "12343"
+  batch_size: 2
+  num_workers: 8
+
+output_dir: {paths.results}
+align_corners: False
+saliency: True
+model_name: clipconv
+img_size: [256, 256]
+patch_sizes: [256, 128, 64]
+patch_w1: 1.0
+patch_w2: 1.0
+patch_w3: 1.0
+strides: [2]
+interpolate_logits: True
