@@ -13,6 +13,7 @@ from src.datasets.pascal_voc import VOC_CLASSES
 from thirdparty.utils import get_iou
 import logging
 import numpy as np
+
 logging.basicConfig()
 log = logging.getLogger(__name__)
 log.setLevel(logging.INFO)
