@@ -22,3 +22,4 @@ patch_w3: 1.0
 strides: [2]
 interpolate_logits: True
 clip_model: laion/CLIP-ViT-B-32-laion2B-s34B-b79K
+

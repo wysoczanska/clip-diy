@@ -17,18 +17,18 @@ import pickle
 import torch.multiprocessing as mp
 from torch.nn.parallel import DistributedDataParallel as DDP
 from torch.distributed import init_process_group
-import logging
 import argparse
 from hydra import compose, initialize
-
 import random
+import logging
+logging.basicConfig()
+log = logging.getLogger(__name__)
+log.setLevel(logging.INFO)
 
 torch.manual_seed(0)
 random.seed(0)
 np.random.seed(0)
 L = 8
-
-log = logging.getLogger(__name__)
 
 
 def get_predictions(gpu, cfg, world_size, class_names):
@@ -91,7 +91,7 @@ def eval_clipconv(cfg):
     preds = []
     img_ids = []
     for i in range(world_size):
-        with open(os.path.join(cfg.output_dir, str(i) + '.pkl'), 'rb') as f:
+        with open(os.path.join(cfg.results, str(i) + '.pkl'), 'rb') as f:
             file = pickle.load(f)
             preds.append(file[0])
             img_ids += file[1]
@@ -121,7 +121,6 @@ def parse_args():
     parser.add_argument('config', help='config file path')
     args = parser.parse_args()
     return args
-
 
 if __name__ == "__main__":
 
