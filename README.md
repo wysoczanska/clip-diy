@@ -64,6 +64,10 @@ The scripts are taken from the [COMUS](https://github.com/zadaianchuk/comus) cod
 cd thirdparty
 git clone https://github.com/valeoai/FOUND.git
 ```
+### 4. Configure all the paths
+
+In "/configs/paths.yml" as well as other in dataset configs make sure you correctly set all the paths.
+
 
 ## Run our demo!
 
