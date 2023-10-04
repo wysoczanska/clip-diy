@@ -14,7 +14,7 @@ Segmentation For-Free <br>
 src="https://img.shields.io/badge/-Paper-blue.svg?colorA=333&logo=arxiv" height=35em></a>
 <p></p>
 
-![teaser.png](./images/teaser.png)
+![teaser.png](./images/clipdiy.png)
 
 </h2>
 </div>
@@ -66,7 +66,7 @@ git clone https://github.com/valeoai/FOUND.git
 ```
 ### 4. Configure all the paths
 
-In "/configs/paths.yml" as well as other in dataset configs make sure you correctly set all the paths.
+In ```/configs/paths.yml``` as well as other in dataset configs make sure you correctly set all the paths.
 
 
 ## Run our demo!
