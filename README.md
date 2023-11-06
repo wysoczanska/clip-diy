@@ -36,8 +36,8 @@ This repository does NOT contain:
 @article{wysoczanska2023clipdiy,
   title={CLIP-DIY: CLIP Dense Inference Yields Open-Vocabulary Semantic Segmentation For-Free},
   author={Wysocza{\'n}ska, Monika and Ramamonjisoa, Micha{\"e}l and Trzci{\'n}ski, Tomasz and Sim{\'e}oni, Oriane},
-  journal={arXiv preprint arXiv:2309.14289},
-  year={2023}
+  booktitle={Proceedings of the IEEE Winter Conference on Applications of Computer Vision (WACV)},
+  year={2024}
 }
 ```
 
