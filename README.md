@@ -33,11 +33,13 @@ This repository does NOT contain:
 - training code and checkpoints (since our method is training-free 🕊️)
 
 ```
-@article{wysoczanska2023clipdiy,
-  title={CLIP-DIY: CLIP Dense Inference Yields Open-Vocabulary Semantic Segmentation For-Free},
-  author={Wysocza{\'n}ska, Monika and Ramamonjisoa, Micha{\"e}l and Trzci{\'n}ski, Tomasz and Sim{\'e}oni, Oriane},
-  booktitle={Proceedings of the IEEE Winter Conference on Applications of Computer Vision (WACV)},
-  year={2024}
+@InProceedings{Wysoczanska_2024_WACV,
+    author    = {Wysocza\'nska, Monika and Ramamonjisoa, Micha\"el and Trzci\'nski, Tomasz and Sim\'eoni, Oriane},
+    title     = {CLIP-DIY: CLIP Dense Inference Yields Open-Vocabulary Semantic Segmentation For-Free},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {January},
+    year      = {2024},
+    pages     = {1403-1413}
 }
 ```
 
